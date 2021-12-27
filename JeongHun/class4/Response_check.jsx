@@ -59,7 +59,7 @@ const Response_check = () => {
 module.exports = Response_check;
 
 
-/* 클래스 버전 
+ //클래스 버전 
 const React = require('react');
 const { Component } = React;
 
@@ -68,8 +68,6 @@ class Response_check extends Component {
     state: 'waiting',
     message: '클릭해서 시작하세요. ',
     result: [],
-
-
   }
 
   timeout;
@@ -132,4 +130,3 @@ class Response_check extends Component {
 }
 
 module.exports = Response_check;
-*/
